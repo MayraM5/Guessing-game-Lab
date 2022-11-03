@@ -2,6 +2,7 @@
 
 # Put your code here
 import random
+print("Welcome to guessing name")
 name = (input("Hello, Whats your name? "))
 correct_num = random.randint(1, 5)
 wrong_guesses = 1
